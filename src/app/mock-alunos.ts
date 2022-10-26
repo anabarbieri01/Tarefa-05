@@ -1,6 +1,7 @@
 import { Aluno } from "./Aluno";
 
 export const ALUNOS: Aluno[] = [
+    {id:1, name: 'Laura', sexo: 'Feminino', idade: 22},
     {id:2, name: 'Ana', sexo: 'Feminino', idade: 20},
     {id:3, name: 'Carol', sexo: 'Feminino', idade: 25},
     {id:4, name: 'Maria', sexo: 'Feminino', idade: 23},

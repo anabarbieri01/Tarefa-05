@@ -1,5 +1,10 @@
 <h2>{{aluno.name | uppercase}} Details</h2>
 <div><span>Id:</span>{{aluno.id}}</div>
-<div><span>Name:</span>{{aluno.name}}</div>
+<div>
+    <!--<span>Name:</span>{{aluno.name}}-->
+    <label for="name"> Aluno name:</label>
+    <input id="name" [(ngModel)]="aluno.name" placeholder="name">
+
+</div>
 <div><span>Sexo:</span>{{aluno.sexo}}</div>
 <div><span>Idade:</span>{{aluno.idade}}</div>

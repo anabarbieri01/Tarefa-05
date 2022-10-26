@@ -15,6 +15,7 @@ export class AlunosComponent implements OnInit {
     idade: 23
   };
 
+
   constructor() { }
 
   ngOnInit(): void {
